@@ -1,0 +1,7 @@
+# bridges + collectors: HTTP and the SOCKS5 fallback
+requests>=2.31
+PySocks>=1.7.1        # required by requests for socks5/socks5h proxies
+
+# converters
+python-docx>=1.1      # md_to_docx.py
+Markdown>=3.5         # md_to_pdf.py (md -> HTML step)

@@ -1,0 +1,7 @@
+{
+  "name": "demo",
+  "command": "python -c \"print('demo pass ok')\"",
+  "min_hours": 4.0,
+  "max_hours": 5.0,
+  "timeout_min": 30
+}

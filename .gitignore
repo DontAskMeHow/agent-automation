@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+.venv/
+
+# runtime outputs
+*.log
+data/
+
+# tokens / personal configs — never commit
+token.local.txt
+*.local.txt
+*.local.json
+collectors/huggingface/criteria.json
+collectors/tg-channels/channels.json
+
+# periodic daemon runtime files (the demo task file stays tracked)
+daemon/periodic-*.task.json
+!daemon/periodic-demo.task.json
+daemon/periodic-*.status.json
+daemon/periodic-*.stop
+
+# problem catalog notes
+monitoring/*.json

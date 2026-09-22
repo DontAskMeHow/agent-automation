@@ -1,0 +1,12 @@
+{
+  "authors": ["example-org-a", "example-org-b"],
+  "likes_min_new": 5,
+  "downloads_min_new": 500,
+  "trending_limit": 30,
+  "new_limit": 100,
+  "papers_keywords": ["llm", "agent", "multimodal", "quantization", "vllm"],
+  "papers_fallback": 20,
+  "search_terms": ["llm", "agent"],
+  "search_limit": 8,
+  "model_configs": false
+}
